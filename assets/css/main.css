@@ -1,0 +1,38 @@
+.logoSize {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.spacer {
+    height: 75px;
+}
+
+.container-fluid {
+    margin: none;
+}
+.carousel-caption {
+    text-shadow: 1px 1px 10px black, 1px 1px 10px black, 1px 1px 10px black;
+}
+
+.card-img-top {
+    height: 32vw;
+    width: 32vw;
+    object-fit: cover;
+    margin: auto;
+}
+
+.card {
+    border: none;
+}
+
+.tableHeader {
+    text-align: center;
+}
+
+.carousel-item {
+    width: 100vw;
+    height: 50vw;
+    object-fit: cover;
+}
+
