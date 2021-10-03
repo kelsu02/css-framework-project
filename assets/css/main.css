@@ -1,0 +1,16 @@
+section,.table-container,.columns {
+    max-width: 110rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 10rem;
+}
+.control {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+.form {
+    border-radius: 100px;
+    border: 4px solid lightskyblue;
+}
