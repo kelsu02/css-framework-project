@@ -58,3 +58,30 @@ More information on git remotes: https://git-scm.com/book/en/v2/Git-Basics-Worki
 If you push to your own repository you can practice doing pull requests to your main branch and see the process from start to finish. Doing pull requests to your repository from your develop to your main will give you github activity.
 
 Reach out to Kelly on Discord if you need help with any of the steps above
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Framework Project</title>
+    <!-- StyleSheets -->
+    <!-- Call Framework you will be using here -->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <!-- NavBar -->
+    <!-- Hero -->
+    <!-- Card Group -->
+    <!-- Table -->
+    <!-- Carousel -->
+    <!-- Form -->
+    <!-- Footer -->
+</body>
+</html>
