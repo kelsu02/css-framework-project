@@ -1,0 +1,23 @@
+body{
+    background-color: ivory;
+}
+
+.buffer{
+    height: 10em;
+    width: auto;
+}
+
+.container1 {
+    height: 40em;
+    width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+footer{
+    background-color: #32373b;
+    height: 5em;
+    width: auto;
+}
+
