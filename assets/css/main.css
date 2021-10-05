@@ -9,6 +9,7 @@ header,
 }
 
 footer {
+    color: lightblue;
     background-color: rgb(83, 83, 255);
 }
 
@@ -19,6 +20,10 @@ footer {
 
 .btn-outline-success {
     background-color: white;
+}
+
+.foundrop {
+    color: lightblue;
 }
 
 
