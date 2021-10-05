@@ -8,6 +8,10 @@ header,
     color: black;
 }
 
+footer {
+    background-color: rgb(83, 83, 255);
+}
+
 .dropdown-menu {
     color: black;
     background: linear-gradient(to right, purple, pink);
@@ -18,7 +22,20 @@ header,
 }
 
 
+/* .hero {
+    background-image: url("https://images.unsplash.com/photo-1491002052546-bf38f186af56?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=908&q=80");
+    min-height: 600;
+    min-width: 800;
+} */
+
+
 /*Placeholder image*/
+
+.column {
+    width: 10rem;
+    height: 15rem;
+    padding: 1rem 1rem;
+}
 
 .bd-placeholder-img {
     font-size: 1.125rem;
@@ -99,6 +116,7 @@ header,
 
 /**/
 
-form {
+form,
+.field {
     padding: .375rem .75rem;
 }
