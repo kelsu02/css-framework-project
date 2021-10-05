@@ -24,15 +24,102 @@ Katie Greenwald
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
+<!-- NavBar -->
+<header>
+    <div class="pure-menu custom-restricted-width">
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item pure-menu-selected">
+                <a href="#" class="pure-menu-link">Flickr</a>
+            </li>
+            <li class="pure-menu-item">
+                <a href="#" class="pure-menu-link">Messenger</a>
+            </li>
+            <li class="pure-menu-item">
+                <a href="#" class="pure-menu-link">Sports</a>
+            </li>
+            <li class="pure-menu-item">
+                <a href="#" class="pure-menu-link">Finance</a>
+            </li>
+            <li class="pure-menu-item pure-menu-has-children">
+                <a href="#" id="menuLink1" class="pure-menu-link">More</a>
+
+                <ul class="pure-menu-children">
+                    <li><a href="#Hero" class="pure-menu-link">Hero</a></li>
+                    <li><a href="#Cards" class="pure-menu-link">Cards</a></li>
+                    <li><a href="#Table" class="pure-menu-link">Table</a></li>
+                    <li><a href="#Caro" class="pure-menu-link">Carousel</a></li>
+                    <li><a href="#Form" class="pure-menu-link">Form</a></li>
+
+                    <li class="pure-menu-item pure-menu-has-children">
+                        <a href="#" id="menuLink1" class="pure-menu-link">Even More</a>
+                        <ul class="pure-menu-children">
+                            <li class="pure-menu-item"><a href="bootstrap.html" class="pure-menu-link">Bootstrap</a></li>
+                            <li class="pure-menu-item"><a href="bulma.html" class="pure-menu-link">Bulma</a></li>
+                            <li class="pure-menu-item"><a href="materialize.html" class="pure-menu-link">Materialize</a></li>
+                            <li class="pure-menu-item"><a href="pure-css.html" class="pure-menu-link">Pure CSS</a></li>
+                            <li class="pure-menu-item"><a href="https://get.foundation/index.html" class="pure-menu-link">Zurb Foundation</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+</header>
 
 <body>
-    <!-- NavBar -->
+
     <!-- Hero -->
     <!-- Card Group -->
+
     <!-- Table -->
+    <table class="pure-table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Make</th>
+                <th>Model</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Honda</td>
+                <td>Accord</td>
+                <td>2009</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Toyota</td>
+                <td>Camry</td>
+                <td>2012</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Hyundai</td>
+                <td>Elantra</td>
+                <td>2010</td>
+            </tr>
+        </tbody>
+    </table>
     <!-- Carousel -->
+
     <!-- Form -->
-    <!-- Footer -->
+    <form class="pure-form">
+        <fieldset>
+            <legend>A compact inline form</legend>
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <label for="default-remember">
+                <input type="checkbox" id="default-remember" /> Remember me
+            </label>
+            <button type="submit" class="pure-button pure-button-primary">Sign in</button>
+        </fieldset>
+    </form>
 </body>
+<!-- Footer -->
+<footer></footer>
 
 </html>
